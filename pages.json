@@ -1,0 +1,356 @@
+{
+  "pages": [{
+    "path": "pages/index/index",
+    "style": {
+      // 搜索框
+      "app-plus": {
+        "scrollIndicator": "none",
+        "titleNView": {
+          "searchInput": {
+            "align": "left",
+            "backgroundColor": "#F7F7F7",
+            "borderRadius": "4px",
+            "disabled": true,
+            "placeholder": "米家家电 超大屏幕",
+            "placeholderColor": "#CCCCCC"
+          },
+          //左右两边按钮
+          "buttons": [{
+            "color": "#989898",
+            "colorPressed": "FD6801",
+            "float": "left",
+            "fontSize": "22px",
+            "fontSrc": "/static/font/iconfont.ttf",
+            "text": "\ue67a"
+          }, {
+            "color": "#989898",
+            "colorPressed": "FD6801",
+            "float": "right",
+            "fontSize": "22px",
+            "fontSrc": "/static/font/iconfont.ttf",
+            "text": "\ue661"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/class/class",
+    "style": {
+      // 搜索框
+      "app-plus": {
+        "scrollIndicator": "none",
+        "bounce": "none",
+        "titleNView": {
+          "searchInput": {
+            "align": "left",
+            "backgroundColor": "#F7F7F7",
+            "borderRadius": "4px",
+            "disabled": true,
+            "placeholder": "米家家电 超大屏幕",
+            "placeholderColor": "#CCCCCC"
+          },
+          //左右两边按钮
+          "buttons": [{
+            "color": "#989898",
+            "colorPressed": "FD6801",
+            "float": "right",
+            "fontSize": "22px",
+            "fontSrc": "/static/font/iconfont.ttf",
+            "text": "\ue67a"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/cart/cart",
+    "style": {
+      "enablePullDownRefresh": true,
+      "app-plus": {
+        // 导航栏
+        "titleNView": false,
+        // 是否回弹
+        "bounce": "none",
+        // 是否显示回弹
+        "scrollIndicator": "none"
+      }
+    }
+  }, {
+    "path": "pages/profile/profile",
+    "style": {
+      "app-plus": {
+        "titleNView": false,
+        "scrollIndicator": "none",
+        "bounce": "none"
+      }
+    }
+  }, {
+    "path": "pages/search/search",
+    "style": {
+      // 搜索框
+      "app-plus": {
+        "scrollIndicator": "none",
+        "titleNView": {
+          "searchInput": {
+            "align": "left",
+            "backgroundColor": "#F7F7F7",
+            "borderRadius": "4px",
+            "disabled": false,
+            "placeholder": "米家家电 超大屏幕",
+            "placeholderColor": "#CCCCCC"
+          },
+          "buttons": [{
+            "color": "#989898",
+            "colorPressed": "FD6801",
+            "float": "right",
+            "fontSize": "16px",
+            "text": "搜索"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/search-list/search-list",
+    "style": {
+      // 搜索框
+      "app-plus": {
+        "scrollIndicator": "none",
+        "titleNView": {
+          "searchInput": {
+            "align": "left",
+            "backgroundColor": "#F7F7F7",
+            "borderRadius": "4px",
+            "disabled": false,
+            "placeholder": "米家家电 超大屏幕",
+            "placeholderColor": "#CCCCCC"
+          },
+          "buttons": [{
+            "color": "#989898",
+            "colorPressed": "FD6801",
+            "float": "right",
+            "fontSize": "16px",
+            "text": "搜索"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/detail/detail",
+    "style": {
+      "app-plus": {
+        "scrollIndicator": "none",
+        "bounce": "none",
+        "titleNView": {
+          "type": "transparent",
+          "buttons": [{
+            "type": "menu"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/detail-comment/detail-comment",
+    "style": {
+      "navigationBarTitleText": "商品评论",
+      "enablePullDownRefresh": true,
+      "app-plus": {
+        "scrollIndicator": "none",
+        "bounce": "none"
+      }
+    }
+  }, {
+    "path": "pages/user-set/user-set",
+    "style": {
+      "navigationBarTitleText": "用户设置"
+    }
+  }, {
+    "path": "pages/user-userinfo/user-userinfo",
+    "style": {}
+  }, {
+    "path": "pages/user-path-list/user-path-list",
+    "style": {
+      "navigationBarTitleText": "收货地址",
+      "app-plus": {
+        "scrollIndicator": "none",
+        "bounce": "none",
+        "titleNView": {
+          "buttons": [{
+            "float": "right",
+            "color": "#999999",
+            "colorPressed": "#bbbbbb",
+            "fontSrc": "/static/font/iconfont.ttf",
+            "fontSize": "16px",
+            "text": "\ue626"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/user-path-edit/user-path-edit",
+    "style": {
+      "navigationBarTitleText": "增加收货地址",
+      "app-plus": {
+        "scrollIndicator": "none",
+        "bounce": "none"
+      }
+    }
+  }, {
+    "path": "pages/order/order",
+    "style": {
+      "navigationBarTitleText": "我的订单",
+      "app-plus": {
+        "scrollIndicator": "none",
+        "bounce": "none",
+        "titleNView": {
+          "buttons": [{
+            "float": "right",
+            "color": "#999999",
+            "colorPressed": "#bbbbbb",
+            "fontSrc": "/static/font/iconfont.ttf",
+            "fontSize": "16px",
+            "text": "\ue60c"
+          }, {
+            "float": "right",
+            "color": "#999999",
+            "colorPressed": "#bbbbbb",
+            "fontSrc": "/static/font/iconfont.ttf",
+            "fontSize": "16px",
+            "text": "\ue6e3"
+          }]
+        }
+      }
+    }
+  }, {
+    "path": "pages/order-comfirm/order-comfirm",
+    "style": {
+      "navigationBarTitleText": "订单配送至",
+      "navigationBarBackgroundColor": "#FD6801",
+      "navigationBarTextStyle": "white"
+    }
+  }, {
+    "path": "pages/order-invoice/order-invoice",
+    "style": {
+      "navigationBarTitleText": "发票"
+    }
+  }, {
+    "path": "pages/login/login",
+    "style": {
+      "app-plus": {
+        "bounce": "none",
+        "scrollIndicator": "none",
+        "titleNView": false
+      }
+    }
+  }, {
+    "path": "pages/msg-list/msg-list",
+    "style": {
+      "navigationBarTitleText": "消息列表"
+    }
+  }, {
+    "path": "pages/msg-detail/msg-detail",
+    "style": {
+      "navigationBarTitleText": "消息详情页",
+      "app-plus": {
+        "bounce": "none",
+        "scrollIndicator": "none"
+      }
+    }
+  }, {
+    "path": "pages/pay-methods/pay-methods",
+    "style": {
+      "navigationBarTitleText": "选择支付方式"
+    }
+  }, {
+    "path": "pages/pay-result/pay-result",
+    "style": {
+      "navigationBarTitleText": "支付成功"
+    }
+  }, {
+    "path": "pages/order-coupon/order-coupon",
+    "style": {
+      "navigationBarTitleText": "优惠券",
+      "app-plus": {
+        "bounce": "none"
+      }
+    }
+  }, {
+    "path": "pages/order-detail/order-detail",
+    "style": {
+      "navigationBarTitleText": "订单详情",
+      "app-plus": {
+        "bounce": "none",
+        "titleNView": {
+          "type": "transparent"
+        }
+      }
+    }
+  }, {
+    "path": "pages/logistics-detail/logistics-detail",
+    "style": {
+      "navigationBarTitleText": "物流信息"
+    }
+  }, {
+    "path": "pages/after-sale/after-sale",
+    "style": {
+      "navigationBarTitleText": "申请售后",
+      "app-plus": {
+        "bounce": "none",
+        "scrollIndicator": "none"
+      }
+    }
+  }, {
+    "path": "pages/about/about",
+    "style": {
+      "navigationBarTitleText": "关于商城",
+      "app-plus": {
+        "bounce": "none",
+        "scrollIndicator": "none"
+      }
+    }
+  }, {
+    "path": "pages/coupon/coupon",
+    "style": {
+      "navigationBarTitleText": "领取优惠券",
+      "enablePullDownRefresh": true
+    }
+  }, {
+    "path": "pages/order-refund/order-refund",
+    "style": {
+      "navigationBarTitleText": "申请退款"
+    }
+  }],
+  // 全局配置
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仿小米商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  // 底部导航
+  "tabBar": {
+    "color": "#b1b1b1",
+    "selectedColor": "#fd6801",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/tabbar/index.png",
+      "selectedIconPath": "static/tabbar/indexselected.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/class/class",
+      "iconPath": "static/tabbar/class.png",
+      "selectedIconPath": "static/tabbar/classselected.png",
+      "text": "分类"
+    }, {
+      "pagePath": "pages/cart/cart",
+      "iconPath": "static/tabbar/car.png",
+      "selectedIconPath": "static/tabbar/carselected.png",
+      "text": "购物车"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "iconPath": "static/tabbar/proflie.png",
+      "selectedIconPath": "static/tabbar/proflieselected.png",
+      "text": "我的"
+    }]
+  }
+}

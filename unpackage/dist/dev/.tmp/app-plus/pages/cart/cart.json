@@ -1,0 +1,13 @@
+{
+  "titleNView": false,
+  "bounce": "none",
+  "scrollIndicator": "none",
+  "usingComponents": {
+    "loading-plus": "/common/mixin/loading-plus",
+    "uni-nav-bar": "/components/uni-app/uni-nav-bar/uni-nav-bar",
+    "price": "/components/common/price",
+    "uni-number-box": "/components/uni-app/uni-number-box/uni-number-box",
+    "common-list": "/components/common/common-list",
+    "sku-popup": "/components/cart/sku-popup"
+  }
+}

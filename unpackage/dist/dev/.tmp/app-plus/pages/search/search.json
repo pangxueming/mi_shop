@@ -1,0 +1,28 @@
+{
+  "scrollIndicator": "none",
+  "titleNView": {
+    "searchInput": {
+      "align": "left",
+      "backgroundColor": "#F7F7F7",
+      "borderRadius": "4px",
+      "disabled": false,
+      "placeholder": "米家家电 超大屏幕",
+      "placeholderColor": "#CCCCCC"
+    },
+    "buttons": [
+      {
+        "color": "#989898",
+        "colorPressed": "FD6801",
+        "float": "right",
+        "fontSize": "16px",
+        "text": "搜索"
+      }
+    ]
+  },
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "card": "/components/common/card",
+    "color-tag": "/components/search/color-tag",
+    "uni-list-item": "/components/uni-app/uni-list-item/uni-list-item"
+  }
+}

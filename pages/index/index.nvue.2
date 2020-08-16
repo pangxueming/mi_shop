@@ -1,0 +1,73 @@
+<template>
+	<div>
+		<!-- 顶部选项卡 -->
+		<div class="w-100" style="height: 75px;">
+			<scroller class="w-100 flex-row" scroll-direction="horizontal" style="height: 75px;" :show-scrollbar="false">
+				<div style="height: 75px; width: 120px;" class="a-center j-center" v-for="(item, index) in tabBars" :key="index">
+					<text style="height: 75px; line-height: 75px; border-bottom-width: 5px;border-style: solid;" class="font-md text-muted main-bg-color"	:style="{ color: tabIndex === index ? '#fd6801' : '#333', 'border-color': tabIndex === index ? '#fd6801' : '#ffffff' }">{{ item.name }}</text>
+				</div>
+			</scroller>
+		</div>
+	</div>
+</template>
+
+<script>
+export default {
+	data() {
+		return {
+			tabIndex: 0,
+			tabBars: [
+				{
+					name: '关注',
+					id: 'guanzhu',
+					template: 'index'
+				},
+				{
+					name: '推荐',
+					id: 'tuijian',
+					template: 'special'
+				},
+				{
+					name: '体育',
+					id: 'tiyu',
+					template: 'special'
+				},
+				{
+					name: '热点',
+					id: 'redian',
+					template: 'special'
+				},
+				{
+					name: '财经',
+					id: 'caijing',
+					template: 'special'
+				},
+				{
+					name: '娱乐',
+					id: 'yule',
+					template: 'special'
+				},
+				{
+					name: '军事',
+					id: 'junshi',
+					template: 'special'
+				},
+				{
+					name: '历史',
+					id: 'lishi',
+					template: 'special'
+				},
+				{
+					name: '本地',
+					id: 'bendi',
+					template: 'special'
+				}
+			],
+			newsitems: []
+		};
+	}
+};
+</script>
+
+<style src="@/common/zcm-main-nvue.css"></style>
+<style></style>

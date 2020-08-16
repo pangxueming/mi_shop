@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "uni-list-item": "/components/uni-app/uni-list-item/uni-list-item"
+  }
+}

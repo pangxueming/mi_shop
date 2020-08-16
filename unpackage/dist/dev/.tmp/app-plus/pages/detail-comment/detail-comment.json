@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品评论",
+  "enablePullDownRefresh": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "usingComponents": {
+    "divider": "/components/common/divider"
+  }
+}

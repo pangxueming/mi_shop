@@ -1,0 +1,27 @@
+{
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "swiper-image": "/components/index/swiper-image",
+    "base-info": "/components/detail/base-info",
+    "scroll-attrs": "/components/detail/scroll-attrs",
+    "uni-list-item": "/components/uni-app/uni-list-item/uni-list-item",
+    "scroll-comments": "/components/detail/scroll-comments",
+    "u-parse": "/components/u-parse/u-parse",
+    "card": "/components/common/card",
+    "common-list": "/components/common/common-list",
+    "bottom-btn": "/components/detail/bottom-btn",
+    "common-popup": "/components/common/common-popup",
+    "price": "/components/common/price",
+    "zcm-radio-group": "/components/common/radio-group",
+    "uni-number-box": "/components/uni-app/uni-number-box/uni-number-box"
+  }
+}

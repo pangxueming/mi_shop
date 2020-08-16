@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "search-list": "/components/search-list/search-list",
+    "uni-drawer": "/components/uni-ui/uni-drawer/uni-drawer",
+    "card": "/components/common/card",
+    "zcm-radio-group": "/components/common/radio-group"
+  }
+}

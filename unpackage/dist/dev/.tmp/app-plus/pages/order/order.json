@@ -1,0 +1,30 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "float": "right",
+        "color": "#999999",
+        "colorPressed": "#bbbbbb",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "fontSize": "16px",
+        "text": ""
+      },
+      {
+        "float": "right",
+        "color": "#999999",
+        "colorPressed": "#bbbbbb",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "fontSize": "16px",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "common-list": "/components/common/common-list",
+    "no-thing": "/components/common/no-thing",
+    "order-list": "/components/order/order-list"
+  }
+}

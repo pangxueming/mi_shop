@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "消息详情页",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

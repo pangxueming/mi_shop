@@ -1,0 +1,17 @@
+{
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse",
+    "swiper-image": "/components/index/swiper-image",
+    "base-info": "/components/detail/base-info",
+    "scroll-attrs": "/components/detail/scroll-attrs",
+    "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item",
+    "scroll-comments": "/components/detail/scroll-comments",
+    "card": "/components/common/card",
+    "common-list": "/components/common/common-list",
+    "bottom-btn": "/components/detail/bottom-btn",
+    "common-popup": "/components/common/common-popup",
+    "price": "/components/common/price",
+    "zcm-radio-group": "/components/common/radio-group",
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box"
+  }
+}

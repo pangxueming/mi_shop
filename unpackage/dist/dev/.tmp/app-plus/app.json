@@ -1,0 +1,119 @@
+{
+  "pages": [
+    "pages/class/class",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/search/search",
+    "pages/search-list/search-list",
+    "pages/detail/detail",
+    "pages/detail-comment/detail-comment",
+    "pages/user-set/user-set",
+    "pages/user-userinfo/user-userinfo",
+    "pages/user-path-list/user-path-list",
+    "pages/user-path-edit/user-path-edit",
+    "pages/order/order",
+    "pages/order-comfirm/order-comfirm",
+    "pages/order-invoice/order-invoice",
+    "pages/login/login",
+    "pages/msg-list/msg-list",
+    "pages/msg-detail/msg-detail",
+    "pages/pay-methods/pay-methods",
+    "pages/pay-result/pay-result",
+    "pages/order-coupon/order-coupon",
+    "pages/order-detail/order-detail",
+    "pages/logistics-detail/logistics-detail",
+    "pages/after-sale/after-sale",
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仿小米商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#b1b1b1",
+    "selectedColor": "#fd6801",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexselected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/class/class",
+        "iconPath": "static/tabbar/class.png",
+        "selectedIconPath": "static/tabbar/classselected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar/car.png",
+        "selectedIconPath": "static/tabbar/carselected.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/tabbar/proflie.png",
+        "selectedIconPath": "static/tabbar/proflieselected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvue": {
+    "pages": {
+      "pages/index/index.html": {
+        "window": {
+          "usingComponents": {},
+          "scrollIndicator": "none",
+          "titleNView": {
+            "searchInput": {
+              "align": "left",
+              "backgroundColor": "#F7F7F7",
+              "borderRadius": "4px",
+              "disabled": true,
+              "placeholder": "米家家电 超大屏幕",
+              "placeholderColor": "#CCCCCC"
+            },
+            "buttons": [
+              {
+                "color": "#989898",
+                "colorPressed": "FD6801",
+                "float": "left",
+                "fontSize": "22px",
+                "fontSrc": "/static/font/iconfont.ttf",
+                "text": ""
+              },
+              {
+                "color": "#989898",
+                "colorPressed": "FD6801",
+                "float": "right",
+                "fontSize": "22px",
+                "fontSrc": "/static/font/iconfont.ttf",
+                "text": ""
+              }
+            ]
+          }
+        },
+        "nvue": true
+      }
+    },
+    "entryPagePath": "pages/index/index"
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "mi_shop",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "loading": "/components/common/loading",
+    "loading-plus": "/common/mixin/loading-plus"
+  }
+}

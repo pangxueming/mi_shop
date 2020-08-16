@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "order-list-item": "/components/order/order-list-item",
+    "common-button": "/components/common/common-button"
+  }
+}
